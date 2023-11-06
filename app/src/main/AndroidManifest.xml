@@ -15,6 +15,9 @@
         android:theme="@style/Theme.RosaryViewingSystem"
         tools:targetApi="31">
         <activity
+            android:name=".PrayerView"
+            android:exported="false" />
+        <activity
             android:name=".Verses"
             android:exported="false" />
         <activity
