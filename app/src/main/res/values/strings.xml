@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Rosary Viewing System</string>
+    <string name="_continue">Continue</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="categories">Categories</string>
+    <string name="rosary_mysteries">Rosary Mysteries</string>
+    <string name="prayers">Prayers</string>
+    <string name="verses">Verses</string>
+    <string name="joyous_title"><b>ON MONDAY AND SATURDAY: \nJOYFUL MYSTERIES</b></string>
+    <string name="joyful_mystery">Joyful Mystery</string>
+    <string name="sorrowful_mystery">Sorrowful Mystery</string>
+    <string name="luminous_mystery">Luminous Mystery</string>
+    <string name="glorious_mystery">Glorious Mystery</string>
+    <string name="todo">TODO</string>
+    <string name="on_tuesday_and_friday_sorrowful_mysteries"><b>ON TUESDAY AND FRIDAY: \nSORROWFUL MYSTERIES</b></string>
+    <string name="on_thursday_luminous_mysteries"><b>ON THURSDAY: \nLUMINOUS MYSTERIES</b></string>
+    <string name="on_wednesday_and_sunday_glorious_mysteries"><b>ON WEDNESDAY AND SUNDAY: \nGLORIOUS MYSTERIES</b></string>
+    <string name="everyday">Everyday</string>
+    <string name="healing">Healing</string>
+    <string name="petition">Petition</string>
+    <string name="mental_well_being">Mental Well-being</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="loved_ones">Loved Ones</string>
+    <string name="catholic_prayers">Catholic Prayers</string>
+    <string name="praise_and_worship">Praise &amp; Worship</string>
+    <string name="_prayers">Prayers</string>
+</resources>

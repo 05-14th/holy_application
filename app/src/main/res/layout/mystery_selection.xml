@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FDFDFD"
+    android:foregroundGravity="center"
+    app:layout_anchorGravity="center">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="108dp"
+            android:gravity="center"
+            android:text="@string/rosary_mysteries"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/joyful"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="showJoyous"
+            android:text="@string/joyful_mystery"
+            app:layout_constraintBottom_toTopOf="@id/sorrowful"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/sorrowful"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="-50dp"
+            android:onClick="showSorrowful"
+            android:text="@string/sorrowful_mystery"
+            app:layout_constraintBottom_toTopOf="@id/luminous"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/joyful" />
+
+        <Button
+            android:id="@+id/luminous"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:onClick="showLuminous"
+            android:text="@string/luminous_mystery"
+            app:layout_constraintBottom_toTopOf="@id/glorious"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sorrowful" />
+
+        <Button
+            android:id="@+id/glorious"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:onClick="showGlorious"
+            android:text="@string/glorious_mystery"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/luminous" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

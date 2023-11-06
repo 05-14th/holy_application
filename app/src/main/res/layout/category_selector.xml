@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Categories">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/categories"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mysteries"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:text="@string/rosary_mysteries"
+        android:textSize="24sp"
+        android:onClick="showMysteries"
+        app:layout_constraintBottom_toTopOf="@+id/prayers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/prayers"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:text="@string/prayers"
+        android:onClick="showPrayers"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/verses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mysteries" />
+
+    <Button
+        android:id="@+id/verses"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:text="@string/verses"
+        android:textSize="24sp"
+        android:onClick="showVerses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prayers" />
+</androidx.constraintlayout.widget.ConstraintLayout>
