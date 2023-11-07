@@ -20,6 +20,7 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "everyday.txt");
         intent.putExtra("image", "bible_verse1.png");
         startActivity(intent);
+        finish();
     }
 
     public void healing(View view){
@@ -28,6 +29,7 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "healing.txt");
         intent.putExtra("image", "bible_verse2.png");
         startActivity(intent);
+        finish();
     }
 
     public void mental(View view){
@@ -36,6 +38,7 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "mental.txt");
         intent.putExtra("image", "bible_verse3.png");
         startActivity(intent);
+        finish();
     }
 
     public void petition(View view){
@@ -44,6 +47,7 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "petition.txt");
         intent.putExtra("image", "bible_verse4.png");
         startActivity(intent);
+        finish();
     }
 
     public void lifestyle(View view){
@@ -52,6 +56,7 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "lifestyle.txt");
         intent.putExtra("image", "bible_verse5.png");
         startActivity(intent);
+        finish();
     }
 
     public void lovedOnes(View view){
@@ -60,6 +65,7 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "lovedOnes.txt");
         intent.putExtra("image", "bible_verse6.png");
         startActivity(intent);
+        finish();
     }
 
     public void catholic(View view){
@@ -68,6 +74,7 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "catholic.txt");
         intent.putExtra("image", "bible_verse7.png");
         startActivity(intent);
+        finish();
     }
 
     public void praiseWorship(View view){
@@ -76,5 +83,6 @@ public class Prayers extends AppCompatActivity {
         intent.putExtra("fileName", "praiseWorship.txt");
         intent.putExtra("image", "bible_verse8.png");
         startActivity(intent);
+        finish();
     }
 }
